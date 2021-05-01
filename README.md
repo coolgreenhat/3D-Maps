@@ -1,13 +1,17 @@
 # Running Locally
-1. Clone the Repo
+ Clone the Repo
+
 **Frontend**
-2. `cd 3D-Maps/`
+1. `cd 3D-Maps/`
+2. Add .env file with varibles MAPTOKEN and BASEURL
 3. `npm install`
 4. `npm start`
+
 **Backend**
-5. `cd backend/`
-6. `npm install`
-7. `nodemon server.js`
+1. `cd backend/`
+2. 2. Add .env file with varible ATLAS_URI
+3. `npm install`
+4. `nodemon server.js`
 
 Tech Stack Used:
 1. MongoDB
@@ -16,3 +20,4 @@ Tech Stack Used:
 4. Node JS
 5. Babylon JS
 6. MapBox
+
