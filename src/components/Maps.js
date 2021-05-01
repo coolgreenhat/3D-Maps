@@ -5,8 +5,7 @@ import MapGL from 'react-map-gl'
 import Geocoder from 'react-map-gl-geocoder'
 import Box from './Box'
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoidGl3aWsiLCJhIjoiY2tvNDkwMXE3MDV4czJ2czYyMWNtNWd0eCJ9.ASMmVxxmqBmLLmu0ADxS_w'
-
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPTOKEN
 
 const Maps = () => {
   const [viewport, setViewport] = useState({
@@ -54,7 +53,7 @@ const Maps = () => {
         />
       </MapGL>
       <div className="mapBox_control">
-        <Box url={staticURL}/>
+        <Box url={staticURL} show={true} />
       </div>
     </div>
   );
