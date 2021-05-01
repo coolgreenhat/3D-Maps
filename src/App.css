@@ -2,37 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mapBox {
+  width: 700px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -2px 4px 10px 6px rgba(0, 0, 0, 0.25);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mapBox_control {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 20px;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.mapBox_control > .btn {
+  box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box_modalControl {
+  display: flex;
+  padding: 10px 10px;
+  justify-content: space-evenly;
+}
+
+.mapDisplayWrapper {
+  margin: 20px 0;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0,0.25);
+}
+
+.mapDisplay {
+  width: 350px;
+  margin: 10px auto;
+}
+
+.mapDisplay_image {
+  width: 300px;
+  height: 300px;
+  padding: 10px 0;
+}
+
+.mapDisplay > h5 {
+  padding: 20px auto;
+}
+
+.mapDisplay_control {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
 }
