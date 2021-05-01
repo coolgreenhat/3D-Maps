@@ -9,7 +9,7 @@
 
 **Backend**
 1. `cd backend/`
-2. 2. Add .env file with varible ATLAS_URI
+2. Add .env file with varible ATLAS_URI
 3. `npm install`
 4. `nodemon server.js`
 
